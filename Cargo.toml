@@ -48,6 +48,7 @@ pin-project-lite = "0.2.9"
 rand = "0.8.5"
 reqwest = { version = "0.12.4", default-features = false }
 ruma = { git = "https://github.com/matrix-org/ruma", rev = "79289381444e886c454302e1e8f5b5f62f249a57", features = [
+    "unstable-exhaustive-types",
     "client-api-c",
     "compat-upload-signatures",
     "compat-user-id",
